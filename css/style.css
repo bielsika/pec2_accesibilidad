@@ -1,0 +1,272 @@
+html {
+
+    width: 70vw;
+    margin-left: 15%;
+    margin-right: 15%;  
+    max-width: 1200px;
+    font-size: 15px; 
+    background-color: white;
+
+}
+
+body{
+
+    margin: 0;
+    width: 70vw;
+    max-width: 1200px;
+    background-color: #FBFBFB;
+    font-family: Georgia, serif;
+
+}
+
+article {
+
+    padding: 2rem;
+    
+}
+
+.webheader {
+
+    width: calc(100% - 4.5rem);   /*PORQUE PUEDE SER*/
+    max-width: 1200px;
+    padding: 1rem;
+    text-align: center;
+    background-image: linear-gradient(90deg, rgba(183,229,235,1) 0%, rgba(251,251,251,1) 50%, rgba(183,229,235,1) 100%);
+    
+}
+
+.webmenu {    
+  
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;  
+    margin-bottom: 0;
+
+}
+
+.menusection {   
+   
+    display: inline;    
+      
+} 
+
+.webmenuformat {
+
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #FBFBFB; 
+    background-color: #20666F; 
+    padding: 1rem;
+    margin: 0.5vw;
+    border-radius: 10%;
+
+}
+
+.webmenuformat_current  {
+
+    color: #20666F;
+    background-color: #FBFBFB;
+    padding: 1rem;
+    margin: 0.5vw;
+    border-radius: 10%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.menusection a:hover,
+.menusection a:focus,
+.menusection a:active {
+
+    color: #20666F;
+    background-color: #FBFBFB;
+
+}
+
+
+
+p::first-letter { 
+    
+    margin-left: 1vw;
+
+}
+
+cite::first-letter {
+
+    margin-left: 1vw;
+
+}
+
+blockquote > p {
+
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-top: 2px solid #20666F;
+    border-bottom: 2px solid #20666F;
+    margin-left: 1vw;
+    text-align: justify;
+    font-size: 16px;
+    
+}
+
+blockquote > cite {
+
+    font-size: 17px;
+
+}
+
+.abclist {
+
+    list-style-type: lower-alpha;
+
+}
+
+.articleauthor {
+
+    color: #AC1522;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.centerfigure {
+ 
+    justify-content: center;
+    text-align: center;
+    display: flex;
+
+}
+
+figure .imgtable {
+
+    width: 50%;
+
+}
+
+figure .imgtable:active {
+
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.imggraph {
+
+    width: 70%;
+
+}
+
+.booklist {
+
+    list-style-image: url(../img/icono-libro.png);
+    margin: 2rem;
+
+}
+
+h1, h2, h3 {
+
+    color: #20666F;
+    font-family: Arial, Helvetica;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+
+}
+
+h4 {
+
+    margin-left: 2vw;
+    font-family: Arial, Helvetica;
+
+}
+
+h4 + div {
+
+    border-left: 2px solid #20666F;
+    padding-left: 1vw;
+    margin-left: 3vw;
+    text-align: justify;
+
+}
+
+.romanlist {
+
+    list-style-type: upper-roman;
+
+}
+
+.whitebox {
+
+    width: 100%;
+    margin-bottom: 4rem;
+    
+}
+
+.whiteboxtext {
+
+    padding: 0px;
+    margin: 0;
+    
+    }
+
+.whitebox blockquote::before {
+
+    content: '“';
+    color: #20666F;
+    font-size: 90px;
+
+}
+
+.mention {
+
+    font-style: normal;
+    font-weight: bold;
+
+}
+
+strong {
+
+    color: #20666F;
+
+}
+
+.dotted {
+
+   border-bottom: 1px dotted black; 
+
+}
+
+.webfooter {
+
+    width: calc(100% - 4.5rem);
+    border: 5px solid #20666F;
+    padding: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: #FBFBFB;
+    background-color: #20666F;
+    font-size: 16px;
+
+}
+
+.whitelink {
+
+    color: #FBFBFB;
+    font-weight: bold;
+
+}
+
+.bluelink {
+
+   color: #20666F;
+   text-decoration: none;
+   font-weight: bold;
+
+}
